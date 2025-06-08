@@ -5,20 +5,42 @@
 :root {
   --primary-font: "Inter", sans-serif;
   --secondary-font: "Macondo", cursive;
-  --primary-color:darkgreen; /* dark green */
+  --primary-color: darkgreen; /* dark green */
   --secondary-color: #aa9581; /* light brown */
   --highlight-color: #416a8e; /* blue */
   --highlight-color-light: #7a9fc2; /* light blue */
-
+  --primary-text-color: #5c2d2d;
 }
 
 /* Global styles */
 
 body {
   font-family: var(--primary-font);
-  padding-top: 57.15px;
-  background-color: var(--primary-color);
+  /* padding-top: 57.15px; */
+  /* background-color: var(--primary-color); */
+  /* background-image: ; */
+  background: url("../images/background/Dunluce-Castle-Northern-Ireland.webp");
+  /* background: url("../images/background/Dunluce-Castle-Northern-Ireland.webp")
+    no-repeat center center/cover; */
 }
+
+main #page-background {
+  height: 100%;
+  width: 100%;
+  background-color: var(--secondary-color);
+  background: url("../images/background/Dunluce-Castle-Northern-Ireland.webp")
+    no-repeat center center/cover;
+  object-fit: contain;
+  position: relative;
+}
+
+/* page background section */
+/* #hero {
+  height: 600px;
+  width: 100%;
+  background: url("../images/background/Dunluce-Castle-Northern-Ireland.webp") no-repeat center center/cover;
+  position: relative;
+} */
 
 h1,
 h2,
@@ -89,8 +111,52 @@ h2 {
 /* Navbar */
 
 #navbar {
-  background-color: var(--primary-color);
+  background-color: transparent;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  /* padding: 2px; */
 }
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: var(--primary-text-color);
+  background-color: #52ea1a;
+  /* text-decoration: underline; */
+}
+
+.nav-pills .nav-link:hover {
+  color: var(--primary-text-color);
+  background-color: rgba(82, 234, 26, 0.4);
+}
+.nav-pills .nav-link,
+.nav-pills .show > .nav-link {
+  color: #52ea1a;
+  background-color: var(--primary-text-color);
+  /* text-decoration: underline; */
+}
+
+.nav-pills .nav-link {
+  color: #52ea1a;
+  background-color: var(--primary-text-color);
+  border-radius: 0;
+  margin-left: 3px;
+  margin-right: 3px;
+  /* text-decoration: underline; */
+}
+
+.nav-pills,
+.nav-pills .show > .nav-link {
+  color: var(--primary-text-color);
+  /* background-color: #9da49b; */
+  /* text-decoration: underline; */
+}
+/* .nav-pills {
+  color: var(--primary-text-color);
+  background-color: #9da49b; */
+/* text-decoration: underline;
+} */
 
 #navbar .logo {
   width: 30px;
@@ -124,7 +190,6 @@ h2 {
 /* Reserve game */
 
 .reservation {
-
   max-width: 290px;
   justify-content: center;
 }
@@ -164,7 +229,6 @@ h2 {
 #contact .table-dark * {
   background-color: transparent;
 }
-
 
 /* Media queries */
 
