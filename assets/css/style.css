@@ -60,7 +60,7 @@ h2 {
   text-align: center;
 } */
 
-#welcome-text h1 {
+#welcome-text {
   /* // <weight>: Use a value from 100 to 400
 // <uniquifier>: Use a unique and descriptive class name */
 
@@ -69,7 +69,7 @@ h2 {
   font-weight: weight;
   font-style: normal;
   color: yellow;
-  margin-top: 80px;
+  /* margin-top: 80px; */
   text-align: center;
   display: flex;
   position: fixed;
@@ -168,6 +168,8 @@ h2 {
   border-radius: 0;
   margin-left: 3px;
   margin-right: 3px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 .nav-pills,
@@ -248,11 +250,27 @@ h2 {
 }
 
 /* Media queries */
-/* Smakk devices (tablets, 768px and smaller) */
-@media screen and (max-width: 576px) {
+/* Small devices (tablets, 440px and smaller) */
+@media screen and (max-width: 440px) {
+  /* allow for stacking of nav pills in two rows for extra small screens less than 440px */
+  #welcome-text {
+    margin-top: 115px;
+  }
+}
+
+/* Small devices (tablets, 440px and larger) */
+@media screen and (min-width: 440px) {
+
+  #welcome-text {
+    margin-top: 80px;
+  }
+}
+
+/* Small devices (tablets, 576px and smaller) */
+@media screen and (min-width: 576px) {
   /* Make all service cards the same height for consistency */
-  main #welcome-text {
-    margin-top: 110px;
+  #welcome-text {
+    margin-top: 80px;
   }
 }
 
