@@ -14,24 +14,60 @@
 
 /* Global styles */
 
+header {
+  
+  z-index: 100;
+}
+
 body {
   font-family: var(--primary-font);
-  /* padding-top: 57.15px; */
+ margin-top: 90px;
   /* background-color: var(--primary-color); */
   /* background-image: ; */
+  display: flex;
   background: url("../images/background/Dunluce-Castle-Northern-Ireland.webp");
-  /* background: url("../images/background/Dunluce-Castle-Northern-Ireland.webp")
-    no-repeat center center/cover; */
+     background-color: transparent;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 main #page-background {
   height: 100%;
   width: 100%;
   background-color: var(--secondary-color);
-  background: url("../images/background/Dunluce-Castle-Northern-Ireland.webp")
-    no-repeat center center/cover;
+  background: url("../images/background/Dunluce-Castle-Northern-Ireland.webp");
+     background-color: transparent;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
   /* object-fit: contain;
   position: relative; */
+}
+
+#intro-text {
+  margin-top: 140px;
+  color: gold;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-top: 10px; */
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.row > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  /* margin-top: 120px; */
 }
 
 /* page background section */
@@ -134,14 +170,40 @@ h2 {
   padding-right: 25px;
 }
 /* Navbar */
+nav {
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+  left: 0;
+  padding: 0 1rem;
+  box-shadow: 0 2px 2px #3a3a3a;
+  display: none;
+  top: 100%;
+}
 
 #navbar {
-  background-color: transparent;
-  margin-top: 1rem;
+  background-color: var(--secondary-color);
+  margin-top: 0;
   margin-bottom: 1rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 0;
+  /* margin-right: 1rem; */
+justify-items: center;
+
+
+  width: 100%;
   /* padding: 2px; */
+
+  /* background-color: var(--primary-color);
+  color: #fff;
+  
+  min-height: 80px; 
+  position: sticky; 
+  top: 0; 
+  
+  z-index: 9999; */
+
+
+
 }
 
 .nav-pills .nav-link.active,
@@ -253,13 +315,23 @@ h2 {
 /* Small devices (tablets, 440px and smaller) */
 @media screen and (max-width: 440px) {
   /* allow for stacking of nav pills in two rows for extra small screens less than 440px */
+  #intro-text {
+    margin-top: 310px;
+    color: gold;
+  }
+
   #welcome-text {
-    margin-top: 115px;
+    margin-top: 130px;
   }
 }
 
-/* Small devices (tablets, 440px and larger) */
+/* Small devices (tablets, 440px to 576px) */
+/* Accommodate text-wrap of h1 #welcome-text */
 @media screen and (min-width: 440px) {
+  #intro-text {
+    margin-top: 255px;
+    color: gold;
+  }
 
   #welcome-text {
     margin-top: 80px;
