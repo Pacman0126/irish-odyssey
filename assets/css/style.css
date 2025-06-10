@@ -24,7 +24,7 @@ body {
  margin-top: 90px;
   /* background-color: var(--primary-color); */
   /* background-image: ; */
-  display: flex;
+  /* display: flex; */
   background: url("../images/background/Dunluce-Castle-Northern-Ireland.webp");
      background-color: transparent;
   background-repeat: no-repeat;
@@ -108,11 +108,13 @@ h2 {
   /* margin-top: 80px; */
   text-align: center;
   display: flex;
-  position: fixed;
+  position: relative;
   justify-content: center;
   text-align: center;
   width: 100%;
-  height: 100vh;
+  /* height: 19vh; */
+  background-color: transparent;
+  z-index: 100;
 }
 
 h2 {
@@ -182,7 +184,7 @@ nav {
 }
 
 #navbar {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   margin-top: 0;
   margin-bottom: 1rem;
   margin-left: 0;
@@ -312,37 +314,81 @@ justify-items: center;
 }
 
 /* Media queries */
-/* Small devices (tablets, 440px and smaller) */
-@media screen and (max-width: 440px) {
+/* Small devices (tablets, 345px and smaller) */
+@media screen and (max-width: 345px) {
   /* allow for stacking of nav pills in two rows for extra small screens less than 440px */
   #intro-text {
-    margin-top: 310px;
+    margin-top: 145px;
     color: gold;
   }
 
   #welcome-text {
-    margin-top: 130px;
+    margin-top: 10px;
+    /* height: 11vh; */
   }
 }
 
-/* Small devices (tablets, 440px to 576px) */
+/* Small devices (tablets, 320px to 576px) */
 /* Accommodate text-wrap of h1 #welcome-text */
-@media screen and (min-width: 440px) {
+@media screen and (min-width: 345px) {
   #intro-text {
-    margin-top: 255px;
+    margin-top: 100px;
     color: gold;
+   
   }
 
   #welcome-text {
-    margin-top: 80px;
+    margin-top: 10px;
   }
 }
 
+@media screen and (min-width: 516px) {
+  #intro-text {
+    margin-top: 65px;
+    color: gold;
+   
+  }
+
+  #welcome-text {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  #intro-text {
+    margin-top: 100px;
+    color: gold;
+   
+  }
+
+  #welcome-text {
+    margin-top: 10px;
+  }
+}
 /* Small devices (tablets, 576px and smaller) */
 @media screen and (min-width: 576px) {
   /* Make all service cards the same height for consistency */
   #welcome-text {
-    margin-top: 80px;
+    margin-top: 10px;
+  }
+
+    #intro-text {
+    margin-top: 65px;
+    color: gold;
+   
+  }
+}
+
+@media screen and (min-width: 660px) {
+  /* Make all service cards the same height for consistency */
+  #welcome-text {
+    margin-top: 10px;
+  }
+
+    #intro-text {
+    margin-top: 30px;
+    color: gold;
+   
   }
 }
 
@@ -352,6 +398,20 @@ justify-items: center;
   #services .card-body {
     min-height: 191px;
   }
+
+    #welcome-text {
+    margin-top: 10px;
+  }
+
+    #intro-text {
+    margin-top: 25px;
+
+
+    color: gold;
+    /* text-align: center;
+    display: table-cell; */
+   
+  }
 }
 
 /* Large devices (small laptops, 992px and up) */
@@ -359,6 +419,16 @@ justify-items: center;
   /* Make all service cards the same height for consistency */
   #services .card-body {
     min-height: auto;
+  }
+
+    #welcome-text {
+    margin-top: 10px;
+  }
+
+    #intro-text {
+    margin-top: 30px;
+    color: gold;
+   
   }
 }
 
@@ -368,6 +438,15 @@ justify-items: center;
   #services .card-body {
     min-height: 220px;
   }
+    #welcome-text {
+    margin-top: 10px;
+  }
+
+    #intro-text {
+    margin-top: 30px;
+    color: gold;
+   
+  }
 }
 
 /* xxl devices (larger desktops, 1400px and up) */
@@ -375,5 +454,15 @@ justify-items: center;
   /* make all service cards the same height for consistency */
   #services .card-body {
     min-height: 195px;
+  }
+
+    #welcome-text {
+    margin-top: 10px;
+  }
+
+    #intro-text {
+    margin-top: 30px;
+    color: gold;
+   
   }
 }
