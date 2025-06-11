@@ -72,144 +72,148 @@
 
     <main>
       <section>
-        <div class="container text-center">
+        <!-- Card grid layout code structure from https://www.shecodes.io/athena/5004-how-to-place-3-bootstrap-cards-using-grid -->
+
+        <div>
+          <h2>My favourite picks for lodging</h2>
+        </div>
+
+        <div class="container d-flex">
           <div class="row">
-            <div class="col-6">
-              <!-- Grid column -->
-
-              <div class="card" style="width: 18rem">
-                <!-- Card -->
-                <!-- <img src="..." class="card-img-top" alt="..." /> -->
-                <div
-                  id="carouselExampleFade"
-                  class="carousel slide carousel-fade"
-                >
-                  <div class="carousel-inner">
-                    <div class="carousel-item active container-sm">
-                      <img
-                        
-                        src="assets/images/gleesons/finally-arrived.webp"
-                        class="d-block w-100 img-container-carousel"
-                        alt="..."
-                      />
+            <div class="card-group">
+              <div class="col-md-6">
+                <div class="card">
+                  <!-- Card -->
+                  <!-- <img src="..." class="card-img-top" alt="..." /> -->
+                  <div
+                    id="carouselExampleFade"
+                    class="carousel slide carousel-fade"
+                  >
+                    <div class="carousel-inner">
+                      <div class="carousel-item active container-sm">
+                        <img
+                          src="assets/images/gleesons/finally-arrived.webp"
+                          class="d-block w-100 img-container-carousel"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="carousel-item container-sm">
+                        <img
+                          src="assets/images/gleesons/gleesons-from-street.png"
+                          class="d-block w-100 img-container-carousel"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="carousel-item container-sm">
+                        <img
+                          src="assets/images/gleesons/irish-breakfast.webp"
+                          class="d-block w-100 img-container-carousel"
+                          alt="..."
+                        />
+                      </div>
                     </div>
-                    <div class="carousel-item container-sm">
-                      <img
-                        src="assets/images/gleesons/gleesons-from-street.png"
-                        class="d-block w-100 img-container-carousel"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="carousel-item container-sm">
-                      <img
-                        src="assets/images/gleesons/irish-breakfast.webp"
-                        class="d-block w-100 img-container-carousel"
-                        alt="..."
-                      />
-                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#carouselExampleFade"
+                      data-bs-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#carouselExampleFade"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                   </div>
-                  <button
-                    class="carousel-control-prev"
-                    type="button"
-                    data-bs-target="#carouselExampleFade"
-                    data-bs-slide="prev"
-                  >
-                    <span
-                      class="carousel-control-prev-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button
-                    class="carousel-control-next"
-                    type="button"
-                    data-bs-target="#carouselExampleFade"
-                    data-bs-slide="next"
-                  >
-                    <span
-                      class="carousel-control-next-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
 
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card’s content.
-                  </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card’s content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-6">
-              <!-- Grid column -->
 
-              <div class="card" style="width: 18rem">
-                <!-- Card -->
-                <!-- <img src="..." class="card-img-top" alt="..." /> -->
-
-                <div
-                  id="carouselExampleFade"
-                  class="carousel slide carousel-fade"
-                >
-                  <div class="carousel-inner">
-                    <div class="carousel-item active container-sm">
-                      <img
-                        src="assets/images/skeffington-arms-hotel/after-hours-bar-service.webp"
-                        class="d-block w-100 img-container-carousel"
-                        alt="..."
-                      />
+              <div class="col-md-6">
+                <div class="card">
+                  <!-- Card -->
+                  <!-- <img src="..." class="card-img-top" alt="..." /> -->
+                  <div
+                    id="carouselExampleFade"
+                    class="carousel slide carousel-fade"
+                  >
+                    <div class="carousel-inner">
+                      <div class="carousel-item active container-sm">
+                        <img
+                          src="assets/images/gleesons/finally-arrived.webp"
+                          class="d-block w-100 img-container-carousel"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="carousel-item container-sm">
+                        <img
+                          src="assets/images/gleesons/gleesons-from-street.png"
+                          class="d-block w-100 img-container-carousel"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="carousel-item container-sm">
+                        <img
+                          src="assets/images/gleesons/irish-breakfast.webp"
+                          class="d-block w-100 img-container-carousel"
+                          alt="..."
+                        />
+                      </div>
                     </div>
-                    <div class="carousel-item container-sm">
-                      <img
-                        src="assets/images/skeffington-arms-hotel/busy-night-2.webp"
-                        class="d-block w-100 img-container-carousel"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="carousel-item container-sm">
-                      <img
-                        src="assets/images/skeffington-arms-hotel/bar-area-3.webp"
-                        class="d-block w-100 img-container-carousel"
-                        alt="..."
-                      />
-                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#carouselExampleFade"
+                      data-bs-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#carouselExampleFade"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                   </div>
-                  <button
-                    class="carousel-control-prev"
-                    type="button"
-                    data-bs-target="#carouselExampleFade"
-                    data-bs-slide="prev"
-                  >
-                    <span
-                      class="carousel-control-prev-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button
-                    class="carousel-control-next"
-                    type="button"
-                    data-bs-target="#carouselExampleFade"
-                    data-bs-slide="next"
-                  >
-                    <span
-                      class="carousel-control-next-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card’s content.
-                  </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card’s content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
                 </div>
               </div>
             </div>

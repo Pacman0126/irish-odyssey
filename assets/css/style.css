@@ -49,7 +49,16 @@ body {
   height: 100%;
   object-fit: contain;
   margin-top: 15px;
-  padding-top: 100px;
+  padding-top: 0;
+}
+
+.card-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* justify-self: center; */
+  flex-wrap: wrap;
+  margin-top: 15px;
 }
 
 main #page-background {
@@ -307,11 +316,15 @@ margin-bottom: 20px;
   margin-bottom: 1.5rem;
 }
 
-/* Game library cards */
+/* Cards */
 
-#new-games .card,
-#fav-games .card {
-  border: none;
+.card {
+/* from https://stackoverflow.com/questions/56727613/how-can-i-customize-cards-positioning-bootstrap */
+  position: relative;
+  top: 105px;
+  margin-bottom: 20px;
+  text-align: center;
+
 }
 
 /* Reserve game */
@@ -454,7 +467,7 @@ margin-bottom: 20px;
     margin-top: 10px;
   }
 
-    #header-text {
+  #header-text {
     background-color: #2d4d38;
     /* border-bottom: 3px solid #9E8D47; */
     height: 70px;
@@ -477,7 +490,7 @@ margin-bottom: 20px;
     border-bottom: 3px solid #9e8d47;
   }
 
-    .container {
+  .container {
     /* border-top: 3px solid #9E8D47; */
     margin-bottom: 20px;
     position: absolute;
@@ -495,7 +508,7 @@ margin-bottom: 20px;
     margin-top: 138px;
   }
 
-    .container {
+  .container {
     /* border-top: 3px solid #9E8D47; */
     margin-bottom: 20px;
     position: absolute;
@@ -529,7 +542,7 @@ margin-bottom: 20px;
     margin-top: 150px;
   }
 
-    .container {
+  .container {
     /* border-top: 3px solid #9E8D47; */
     margin-bottom: 20px;
     position: absolute;
@@ -563,7 +576,7 @@ margin-bottom: 20px;
     margin-top: 160px;
   }
 
-    .container {
+  .container {
     /* border-top: 3px solid #9E8D47; */
     margin-bottom: 20px;
     position: absolute;
@@ -597,7 +610,7 @@ margin-bottom: 20px;
     margin-bottom: 0;
   }
 
-    .container {
+  .container {
     /* border-top: 3px solid #9E8D47; */
     margin-bottom: 20px;
     position: absolute;
