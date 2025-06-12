@@ -344,12 +344,24 @@ margin-bottom: 20px;
 
 .card {
 /* from https://stackoverflow.com/questions/56727613/how-can-i-customize-cards-positioning-bootstrap */
+/* https://stackoverflow.com/questions/66151384/add-spacing-between-bootstrap-cards */
   position: relative;
   top: 105px;
   margin-bottom: 20px;
+  /* margin-left: auto;
+  margin-right:100px!important; */
   text-align: center;
 
+    margin-left: auto;      
+    margin-right: auto;
+    width: auto;
+
 }
+
+/* .cards-wrapper{
+
+  column-gap: 8px;
+} */
 
 /* Reserve game */
 
@@ -399,15 +411,15 @@ margin-bottom: 20px;
 
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
-    width: fit-content;
+    width: 100%;
      /* width: 100%; */
     padding-right: calc(var(--bs-gutter-x) * .5);
     padding-left: calc(var(--bs-gutter-x) * .5);
     margin-right: auto;
     margin-left: auto;
 
-    border: 2px solid black;
-   outline: 2px solid black;
+    /* border: 2px solid black;
+   outline: 2px solid black; */
 }
 
 /* Media queries */
