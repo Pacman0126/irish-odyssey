@@ -64,13 +64,12 @@ body {
 }
 
 .card {
-  margin: 0 0; 
-  float: none; 
-  
+  margin: 0 0;
+  float: none;
 }
 
 .card-body {
- width: 100%;
+  width: 100%;
 }
 
 main #page-background {
@@ -222,7 +221,7 @@ h2 {
   background-color: transparent;
 }
 
-#intro-text {
+.intro-text {
   margin-top: 15px;
   color: #cef542;
 
@@ -365,15 +364,15 @@ margin-bottom: 20px;
   font-family: var(--secondary-font);
 }
 
-/* Services */
+/* Sightseeing */
 
-#services .card-footer {
+#sightseeing .card-footer {
   font-weight: bold;
   color: var(--highlight-color);
   background-color: transparent;
 }
 
-#services .card {
+#sightseeing .card {
   margin-bottom: 1.5rem;
 }
 
@@ -395,6 +394,12 @@ margin-bottom: 20px;
   margin-right: auto;
   width: auto;
 }
+  #sightseeing .card-body, #dining-pubs-lodging .card-body {
+    /* https://stackoverflow.com/questions/48406628/bootstrap-align-button-to-the-bottom-of-card#:~:text=By%20default%2C%20the%20card%20is,the%20bottom%20of%20the%20Card. */
+    display: flex;
+    flex-direction: column;
+    min-height: 622px;
+  }
 
 /* .cards-wrapper{
 
@@ -618,14 +623,14 @@ margin-bottom: 20px;
     position: absolute;
     top: 105px;
   }
+
+
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 767px) {
   /* Make all service cards the same height for consistency */
-  #services .card-body {
-    min-height: 191px;
-  }
+
 
   #header-text {
     background-color: #2d4d38;
@@ -656,10 +661,7 @@ margin-bottom: 20px;
 
 /* Large devices (small laptops, 992px and up) */
 @media screen and (min-width: 992px) {
-  /* Make all service cards the same height for consistency */
-  #services .card-body {
-    min-height: auto;
-  }
+
 
   #header-text {
     background-color: #2d4d38;
@@ -691,9 +693,7 @@ margin-bottom: 20px;
 /* xl devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
   /* make all service cards the same height for consistency */
-  #services .card-body {
-    min-height: 220px;
-  }
+
   #welcome-text {
     margin-top: 10px;
     text-align: center;
@@ -725,9 +725,7 @@ margin-bottom: 20px;
 /* xxl devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) {
   /* make all service cards the same height for consistency */
-  #services .card-body {
-    min-height: 195px;
-  }
+
 
   #header-text {
     background-color: #2d4d38;
