@@ -76,35 +76,42 @@
       <section id="submit-ideas">
         <form class="row g-3">
           <div class="container-fluid">
-            <div class="row justify-content-center">
-              <div class="col col-md-6">
+            <div class="row">
+              <div class="col col-md-6 justify-content-center">
                 <label for="name" class="form-label form-text"
                   ><strong>Name:</strong>
                 </label>
                 <input
                   type="text"
-                  class="form-control"
+                  class="form-control input-field"
                   id="name"
                   placeholder="Name or user-handle"
+                  required
                 />
               </div>
-              <div class="col col-md-6">
+              <div class="col col-md-6 justify-content-center">
                 <label for="email" class="form-label form-text"
                   ><strong>Email:</strong>
                 </label>
                 <input
                   type="email"
-                  class="form-control"
+                  class="form-control input-field"
                   id="email"
                   placeholder="Email address for updates"
+                  required
                 />
               </div>
 
-              <div class="col-md-6">
+              <div class="col-md-6 justify-content-center">
                 <label for="image-files" class="form-label form-text"
                   ><strong>Upload zip file of images:</strong>
                 </label>
-                <input type="file" class="form-control" id="image-files" />
+                <input
+                  type="file"
+                  class="form-control input-field"
+                  id="image-files"
+                  required
+                />
               </div>
 
               <div class="col-auto">
@@ -120,15 +127,47 @@
                   required
                 ></textarea>
               </div>
+
+              <div class="radio-buttons form-label form-text">
+                <div>
+                  <label for="dining-pubs-lodging "></label>
+                  <strong>Dining/Pubs/Lodging</strong>
+
+                  <input
+                    type="radio"
+                    name="dining-pubs-lodging"
+                    id="dining-pubs-lodging"
+                    value="dining-pubs-lodging"
+                    required
+                    checked
+                  />
+                </div>
+
+                <div>
+                  <label for="sightseeing">
+                    <strong>Sightseeing</strong>
+                  </label>
+                  <input
+                    type="radio"
+                    name="sightseeing"
+                    id="sightseeing"
+                    value="sightseeing"
+                  />
+                </div>
+              </div>
             </div>
 
             <!-- </div> -->
           </div>
-
-          <div class="col-12">
-            <button type="submit" class="btn btn-primary">
-              Submit My Experience
-            </button>
+          <div
+            id="submit-button"
+            class="row d-flex justify-content-center align-content-center mb-15"
+          >
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">
+                Submit My Experience
+              </button>
+            </div>
           </div>
         </form>
       </section>
