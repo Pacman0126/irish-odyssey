@@ -64,12 +64,13 @@ body {
 }
 
 .card {
-  margin: 0 auto; /* Added */
-  float: none; /* Added */
+  margin: 0 0; 
+  float: none; 
+  
 }
 
 .card-body {
-  min-height: auto;
+ width: 100%;
 }
 
 main #page-background {
