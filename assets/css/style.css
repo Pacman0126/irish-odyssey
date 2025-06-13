@@ -221,6 +221,30 @@ h2 {
   background-color: transparent;
 }
 
+.form-text {
+  font-family: var(--primary-font);
+  font-optical-sizing: none;
+  font-weight: 100;
+  font-style: normal;
+  font-size: large;
+  color: #cef542;
+
+  padding: 10px 10px 10px 10px;
+
+  text-align: justify;
+  display: flex;
+  position: relative;
+  justify-content: center;
+
+  margin-top: 20px;
+  z-index: 200;
+
+  width: 100%;
+
+  /* height: 19vh; */
+  background-color: transparent;
+}
+
 .intro-text {
   margin-top: 15px;
   color: #cef542;
@@ -394,12 +418,17 @@ margin-bottom: 20px;
   margin-right: auto;
   width: auto;
 }
-  #sightseeing .card-body, #dining-pubs-lodging .card-body {
-    /* https://stackoverflow.com/questions/48406628/bootstrap-align-button-to-the-bottom-of-card#:~:text=By%20default%2C%20the%20card%20is,the%20bottom%20of%20the%20Card. */
-    display: flex;
-    flex-direction: column;
-    min-height: 622px;
-  }
+#sightseeing .card-body,
+#dining-pubs-lodging .card-body {
+  /* https://stackoverflow.com/questions/48406628/bootstrap-align-button-to-the-bottom-of-card#:~:text=By%20default%2C%20the%20card%20is,the%20bottom%20of%20the%20Card. */
+  display: flex;
+  flex-direction: column;
+  min-height: 622px;
+}
+
+/* .row-fit-cards .card {
+  width: 100%;
+} */
 
 /* .cards-wrapper{
 
@@ -471,6 +500,50 @@ margin-bottom: 20px;
    outline: 2px solid black; */
 }
 
+#submit-ideas .container,
+#submit-ideas .container-fluid,
+#submit-ideas .container-lg,
+#submit-ideas .container-md,
+#submit-ideas .container-sm,
+#submit-ideas .container-xl,
+#submit-ideas .container-xxl {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  /* width: 100%; */
+  position: relative;
+
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+
+  /* border: 2px solid black;
+   outline: 2px solid black; */
+}
+
+.row > * {
+  flex-shrink: 0;
+  width: 80%;
+  max-width: 95%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin: auto;
+  /* margin-top: 120px; */
+}
+
+#submit-ideas .row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  /* margin-top: 10px; */
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+  margin-top: 95px;
+}
+
 /* Media queries */
 
 /* Small devices (tablets, 360px to 576px) */
@@ -516,8 +589,11 @@ margin-bottom: 20px;
   .img-container-topmost {
     margin-top: 150px;
   }
-}
 
+  #submit-ideas .row {
+    margin-top: 105px;
+  }
+}
 @media screen and (max-width: 527px) {
   /* There is a unique breakpoint at width:527px where buttons and text above wrap and 
   slightly alter top margin of h2 below. Can't find a workaraound yet. Maybe ignore. */
@@ -532,8 +608,6 @@ margin-bottom: 20px;
   }
 
   #header-text {
-    background-color: #2d4d38;
-    /* border-bottom: 3px solid #9E8D47; */
     height: 100px;
     width: 355px;
     border: 5px solid #9e8d47;
@@ -543,7 +617,6 @@ margin-bottom: 20px;
   }
 
   .container {
-    /* border-top: 3px solid #9E8D47; */
     margin-bottom: 20px;
     position: absolute;
     top: 125px;
@@ -566,6 +639,10 @@ margin-bottom: 20px;
 
   .img-container-topmost {
     margin-top: 160px;
+  }
+
+  #submit-ideas .row {
+    margin-top: 105px;
   }
 }
 
@@ -623,14 +700,11 @@ margin-bottom: 20px;
     position: absolute;
     top: 105px;
   }
-
-
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 767px) {
   /* Make all service cards the same height for consistency */
-
 
   #header-text {
     background-color: #2d4d38;
@@ -661,8 +735,6 @@ margin-bottom: 20px;
 
 /* Large devices (small laptops, 992px and up) */
 @media screen and (min-width: 992px) {
-
-
   #header-text {
     background-color: #2d4d38;
     /* border-bottom: 3px solid #9E8D47; */
@@ -725,7 +797,6 @@ margin-bottom: 20px;
 /* xxl devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) {
   /* make all service cards the same height for consistency */
-
 
   #header-text {
     background-color: #2d4d38;
