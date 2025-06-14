@@ -45,146 +45,58 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <header>
-            <nav
-              id="navbar"
-              class="nav nav-pills justify-content-center fixed-top"
-            >
-              <div id="header-text">
+    <main>
+      <!-- <section id="submit-ideas">
+             <div class="row justify-content-center">
+        <div class="col-12 col-md-8">
+          <h1 class="display-3">Thank you!</h1>
+          <p class="lead">Submission Confirmed!</p>
+          <a href="index.html" class="btn custom-button-outline mb-5"
+            >Return to the home page</a
+          >
+        </div>
+      </div>
+      </section> -->
+
+      <section>
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-12 align-self-center">
+              <div id="">
                 <h1 id="welcome-text">
-                  <strong>Welcome to Irish Odyssey</strong>
+                  <strong>Congratulations!</strong>
                 </h1>
               </div>
 
-              <div class="container">
-                <ul class="nav nav-pills justify-content-center">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.html"
-                      >Home</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="dining-pubs-lodging.html"
-                      >Dining/Pubs/Lodging</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="sightseeing.html">Sightseeing</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="submit-ideas.html"
-                      >Submit Your Picks</a
-                    >
-                  </li>
-                </ul>
+              <div class="container-sm">
+                <img
+                  class="img-container-topmost"
+                  src="assets/images/glendalough/Glendalough_Miner's_Path_Wicklow_Ireland.jpg"
+                  alt="Dunluce Castle Northern Ireland"
+                />
               </div>
 
-              <!-- <h1 id="welcome-text"><strong>Welcome to Irish Odyssey</strong>  </h1> -->
-            </nav>
-          </header>
+              <div id="">
+                <h1 id="welcome-text">
+                  <strong>We have your upload.</strong>
+                </h1>
+              </div>
+
+              <div
+                id="submit-button"
+                class="d-flex justify-content-center mt-auto"
+              >
+                <button href="index.html" type="button" class="btn btn-primary">
+                  <a
+                    href="index.html"
+                    class="d-flex justify-content-center mt-auto btn btn-primary mb-5"
+                    >Take me back to the home page</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-
-    <main>
-      <section id="submit-ideas">
-        <form class="row g-3">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col col-md-6 justify-content-center">
-                <label for="name" class="form-label form-text"
-                  ><strong>Name:</strong>
-                </label>
-                <input
-                  type="text"
-                  class="form-control input-field"
-                  id="name"
-                  placeholder="Name or user-handle"
-                  required
-                />
-              </div>
-              <div class="col col-md-6 justify-content-center">
-                <label for="email" class="form-label form-text"
-                  ><strong>Email:</strong>
-                </label>
-                <input
-                  type="email"
-                  class="form-control input-field"
-                  id="email"
-                  placeholder="Email address for updates"
-                  required
-                />
-              </div>
-
-              <div class="col-md-6 justify-content-center">
-                <label for="image-files" class="form-label form-text"
-                  ><strong>Upload zip file of images:</strong>
-                </label>
-                <input
-                  type="file"
-                  class="form-control input-field"
-                  id="image-files"
-                  required
-                />
-              </div>
-
-              <div class="col-auto">
-                <label for="comments" class="form-label form-text">
-                  <strong>Comments:</strong>
-                </label>
-                <textarea
-                  class="form-control"
-                  rows="6"
-                  id="comments"
-                  name="comments"
-                  placeholder="Comments and tips"
-                  required
-                ></textarea>
-              </div>
-            </div>
-          </div>
-
-          <div class="radio-buttons">
-            <div>
-              <label for="dining-pubs-lodging "></label>
-              <strong>Dining/Pubs/Lodging</strong>
-
-              <input
-                type="radio"
-                name="dining-pubs-lodging"
-                id="dining-pubs-lodging"
-                value="dining-pubs-lodging"
-                required
-                checked
-              />
-            </div>
-
-            <div>
-              <label for="sightseeing">
-                <strong>Sightseeing</strong>
-              </label>
-              <input
-                type="radio"
-                name="sightseeing"
-                id="sightseeing"
-                value="sightseeing"
-              />
-            </div>
-
-            <a
-              href="submit-confirmation.html"
-              class="justify-content-center btn btn-primary mb-5 w-25"
-              >Submit My Experience</a
-            >
-          </div>
-
-          <!-- <div id="submit-button" class="d-flex justify-content-center mt-auto"> -->
-
-          <!-- </div> -->
-        </form>
       </section>
     </main>
 
@@ -273,6 +185,7 @@
         </div>
       </div> -->
     <!-- </footer> -->
+
     <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
