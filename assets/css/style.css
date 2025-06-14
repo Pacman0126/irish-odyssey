@@ -226,7 +226,7 @@ h1 {
   color: #cef542;
 
   padding: 10px 10px 10px 10px;
-
+line-height: 1em;
   text-align: center;
   display: flex;
   position: relative;
@@ -588,6 +588,7 @@ margin-bottom: 20px;
 
 .input-field {
   background-color: #cef542;
+
 }
 
 /* textarea #comments .form-control {
@@ -602,18 +603,30 @@ margin-bottom: 20px;
 @media screen and (min-width: 360px) and (max-width: 500px) {
   #welcome-text {
     margin-top: 10px;
+    font-size: large;
+    line-height: 2rem;
   }
 
   #header-text {
     background-color: #2d4d38;
     /* border-bottom: 3px solid #9E8D47; */
     height: 100px;
-    width: 355px;
+    width: 288px;
     border: 5px solid #9e8d47;
     border-radius: 20px;
     margin-top: 20px;
     margin-bottom: 50px;
   }
+
+  .heading-text h2 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #cef542;
+  position: relative;
+  margin-top: 155px;
+  font-family: var(--secondary-font);
+  /* justify-content: center; */
+}
 
   .container {
     /* border-top: 3px solid #9E8D47; */
@@ -656,6 +669,7 @@ margin-bottom: 20px;
 @media screen and (min-width: 501px) and (max-width: 528px) {
   #welcome-text {
     margin-top: 10px;
+    line-height: 2rem;
   }
 
   #header-text {
@@ -666,6 +680,16 @@ margin-bottom: 20px;
     margin-top: 20px;
     margin-bottom: 50px;
   }
+
+    .heading-text h2 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #cef542;
+  position: relative;
+  margin-top: 155px;
+  font-family: var(--secondary-font);
+  /* justify-content: center; */
+}
 
   .container {
     margin-bottom: 20px;
@@ -714,6 +738,16 @@ margin-bottom: 20px;
     margin-top: 20px;
     margin-bottom: 10px;
   }
+
+    .heading-text h2 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #cef542;
+  position: relative;
+  margin-top: 155px;
+  font-family: var(--secondary-font);
+  /* justify-content: center; */
+}
 
   .img-container-topmost {
     margin-top: 140px;
