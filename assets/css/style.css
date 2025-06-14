@@ -32,21 +32,19 @@ body {
 }
 
 .form-control {
-
-    background-color: #cef542;
-
+  background-color: #cef542;
 }
 
 textarea.form-control {
-    min-height: calc(1.5em + .75rem + calc(var(--bs-border-width) * 2));
-    margin-bottom: 20px;
+  min-height: calc(1.5em + 0.75rem + calc(var(--bs-border-width) * 2));
+  margin-bottom: 20px;
 }
 
 #submit-button .btn {
   display: flex;
-margin-bottom: 20px;
-justify-content: center;
-
+  margin-bottom: 20px;
+  margin-top: 20px;
+  justify-content: center;
 }
 
 .radio-buttons {
@@ -69,8 +67,6 @@ justify-content: center;
   width: 100%;
 
   background-color: transparent;
-
-
 }
 
 .img-container-topmost {
@@ -178,8 +174,24 @@ h3 {
   color: var(--primary-color);
 } */
 
-h1,
-h2 {
+.heading-text h2 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #cef542;
+  position: relative;
+  margin-top: 255px;
+  font-family: var(--secondary-font);
+  /* justify-content: center; */
+}
+
+.heading-text h3 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #cef542;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
   text-transform: uppercase;
   color: #cef542;
   position: relative;
@@ -187,20 +199,9 @@ h2 {
   z-index: 200;
 }
 
-/* #text-above-grid {
-  font-family:Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
-  color: #cef542;
-  position: relative;
-  margin-top: 135px;
-  z-index: 200;
-} */
-
-/* h1 {
-
-  margin-top: 80px;
-  text-align: center;
-} */
+.hide-display {
+  display: none;
+}
 
 #header-text {
   background-color: #2d4d38;
@@ -234,13 +235,14 @@ h2 {
 
   width: 100%;
 
-  /* height: 19vh; */
   background-color: transparent;
   z-index: 100;
 }
 
 #text-above-grid {
-  font-family: var(--primary-font);
+
+  display: flex;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-optical-sizing: none;
   font-weight: 100;
   font-style: normal;
@@ -249,11 +251,9 @@ h2 {
 
   padding: 10px 10px 10px 10px;
 
-  text-align: justify;
-  display: flex;
   position: relative;
-  justify-content: center;
-
+  /* justify-content: center; */
+  /* text-justify: auto; */
   margin-top: 20px;
   z-index: 200;
 
@@ -586,15 +586,14 @@ margin-bottom: 20px;
   margin-top: 95px;
 }
 
-  .input-field {
-    background-color: #cef542;
-  }
+.input-field {
+  background-color: #cef542;
+}
 
- /* textarea #comments .form-control {
+/* textarea #comments .form-control {
 
   background-color: #cef542;
 } */
-
 
 /* Media queries */
 
@@ -853,7 +852,7 @@ margin-bottom: 20px;
     top: 105px;
   }
 
-    .input-field {
+  .input-field {
     max-width: 350px;
   }
 }
