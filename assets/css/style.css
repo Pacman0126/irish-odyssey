@@ -22,13 +22,7 @@ body {
   font-family: var(--primary-font);
   margin-top: 90px;
   background-color: #2d4d38;
-  /* background-image: ; */
-  /* display: flex; */
-  /* background: url("../images/background/iStock-1130565676.jpg"); */
-  /* background-color: transparent;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover; */
+
 }
 
 .form-control {
@@ -53,7 +47,7 @@ textarea.form-control {
   justify-content: space-evenly;
 
   font-family: var(--primary-font);
-  font-optical-sizing: none;
+
   font-weight: 100;
   font-style: normal;
   font-size: large;
@@ -73,7 +67,7 @@ textarea.form-control {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  /* margin-top: 150px; */
+
 }
 .img-container {
   width: 100%;
@@ -100,8 +94,8 @@ textarea.form-control {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  justify-items: auto;
-  /* justify-self: center; */
+
+
   flex-wrap: wrap;
   margin-top: 15px;
   margin-left: auto;
@@ -120,20 +114,16 @@ main #page-background {
   height: 100%;
   width: 100%;
   background-color: var(--secondary-color);
-  /* background: url("../images/background/iStock-1130565676.jpg"); */
+
   background-color: transparent;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  /* object-fit: contain;
-  position: relative; */
+
 }
 
-/* #intro-text {
-  margin-top: 140px;
-  color: #cef542;
-} */
+
 
 .row {
   --bs-gutter-x: 1.5rem;
@@ -141,7 +131,7 @@ main #page-background {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  /* margin-top: 10px; */
+
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
   margin-top: 50px;
@@ -154,31 +144,13 @@ main #page-background {
 
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
-  /* margin-top: 120px; */
+
 }
 
-/* .card-group {
-  flex-shrink: 0;
-  width: auto;
-  max-width: 100%;
 
 
-} */
 
-/* page background section */
-/* #hero {
-  height: 600px;
-  width: 100%;
-  background: url("../images/background/Dunluce-Castle-Northern-Ireland.webp") no-repeat center center/cover;
-  position: relative;
-} */
 
-/* h1,
-h2,
-h3 {
-  font-family: var(--secondary-font);
-  color: var(--primary-color);
-} */
 
 .heading-text h2 {
   text-transform: uppercase;
@@ -187,7 +159,7 @@ h3 {
   position: relative;
   margin-top: 255px;
   font-family: var(--secondary-font);
-  /* justify-content: center; */
+
 }
 
 .heading-text h3 {
@@ -211,7 +183,7 @@ h1 {
 
 #header-text {
   background-color: #2d4d38;
-  /* border-bottom: 3px solid #9E8D47; */
+
   height: 70px;
   width: auto;
   border: 5px solid #9e8d47;
@@ -221,11 +193,10 @@ h1 {
 }
 
 #welcome-text {
-  /* // <weight>: Use a value from 100 to 400
-// <uniquifier>: Use a unique and descriptive class name */
+
 
   font-family: "Playwrite IE", cursive;
-  font-optical-sizing: none;
+
   font-weight: 100;
   font-style: normal;
   font-size: x-large;
@@ -248,7 +219,7 @@ h1 {
 #text-above-grid {
   display: flex;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-optical-sizing: none;
+  
   font-weight: 100;
   font-style: normal;
   font-size: x-large;
@@ -257,20 +228,19 @@ h1 {
   padding: 10px 10px 10px 10px;
 
   position: relative;
-  /* justify-content: center; */
-  /* text-justify: auto; */
+
   margin-top: 20px;
   z-index: 200;
 
   width: 100%;
 
-  /* height: 19vh; */
+
   background-color: transparent;
 }
 
 .form-text {
   font-family: var(--primary-font);
-  font-optical-sizing: none;
+  
   font-weight: 100;
   font-style: normal;
   font-size: large;
@@ -288,7 +258,7 @@ h1 {
 
   width: 100%;
 
-  /* height: 19vh; */
+
   background-color: transparent;
 }
 
@@ -296,7 +266,7 @@ h1 {
   margin-top: 15px;
   color: #cef542;
 
-  /* color: white; */
+
 }
 
 h2 {
@@ -310,60 +280,21 @@ h2 {
 .section {
   padding-top: 4rem;
   justify-content: center;
-  /* margin-top: 250px; */
+
 }
 
-/* .discount-text {
-  width: 290px;
-  /* max-width: 320px; */
+
 /* background-color: var(--highlight-color);
   color: white;
   margin-top: 2rem;
   margin-bottom: 2rem;
 } */
-*/
+ */
 
-/* Buttons */
 
-/* .custom-button-filled {
-  border: 2px solid var(--highlight-color);
-  background-color: var(--highlight-color);
-  color: white;
-} */
-
-/* .custom-button-filled:hover {
-  border: 2px solid var(--secondary-color);
-  background-color: var(--secondary-color);
-  color: white;
-} */
-
-/* .custom-button-outline {
-  border: 2px solid var(--highlight-color);
-  background-color: white;
-  color: var(--highlight-color);
-  padding-top: 7px;
-  padding-bottom: 7px;
-  padding-left: 25px;
-  padding-right: 25px;
-} */
-
-/* .custom-button-outline:hover {
-  border: 2px solid var(--highlight-color);
-  background-color: var(--highlight-color);
-  color: white;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  padding-left: 25px;
-  padding-right: 25px;
-} */
 /* Navbar */
 
-/* .container {
 
-border-top: 3px solid #9E8D47;
-margin-bottom: 20px;
-
-} */
 .nav {
   position: absolute;
   background-color: #ffffff;
@@ -377,17 +308,16 @@ margin-bottom: 20px;
 }
 
 #navbar {
-  /* background-color: var(--primary-color); */
 
   margin-top: 0;
   margin-bottom: 1rem;
   margin-left: 0;
-  /* margin-right: 1rem; */
+
   justify-items: center;
 
   width: 100%;
   height: 160px;
-  /* padding: 2px; */
+
   background: url("../images/background/iStock-1130565676.jpg");
   border-bottom: 3px solid #9e8d47;
 }
@@ -396,7 +326,7 @@ margin-bottom: 20px;
 .nav-pills .show > .nav-link {
   color: var(--primary-text-color);
   background-color: #cef542;
-  /* text-decoration: underline; */
+
 }
 
 .nav-pills .nav-link:hover {
@@ -407,13 +337,13 @@ margin-bottom: 20px;
 .nav-pills .show > .nav-link {
   color: #52ea1a;
   background-color: var(--primary-text-color);
-  /* text-decoration: underline; */
+
 }
 
 .nav-pills .nav-link {
   color: var(--primary-text-color);
   background-color: #9e8d47;
-  border-radius: 1;
+  border-radius: 1px;
   margin-left: 3px;
   margin-right: 3px;
   margin-top: 2px;
@@ -457,8 +387,7 @@ margin-bottom: 20px;
 
   margin-top: 20px;
   margin-bottom: 20px;
-  /* margin-left: auto;
-  margin-right:100px!important; */
+
   text-align: center;
 
   margin-left: auto;
@@ -473,57 +402,15 @@ margin-bottom: 20px;
   min-height: 622px;
 }
 
-/* .row-fit-cards .card {
-  width: 100%;
-} */
 
-/* .cards-wrapper{
 
-  column-gap: 8px;
-} */
 
-/* Reserve game */
 
-.reservation {
-  max-width: 290px;
-  justify-content: center;
-}
 
-/* Footer / contact */
 
-#contact {
-  background-color: var(--primary-color);
-  color: white;
-  padding-bottom: 3rem;
-}
 
-#contact h2 {
-  color: white;
-}
 
-#contact .sub-heading-color {
-  color: var(--highlight-color-light);
-}
 
-#contact i {
-  color: var(--secondary-color);
-  font-size: 1.2rem;
-  margin-right: 15px;
-}
-
-#contact .social-links i {
-  color: var(--highlight-color-light);
-  font-size: 1.9rem;
-  transition: color 0.3s ease-in-out;
-}
-
-#contact .social-links i:hover {
-  color: var(--secondary-color);
-}
-
-#contact .table-dark * {
-  background-color: transparent;
-}
 
 .container,
 .container-fluid,
@@ -535,7 +422,7 @@ margin-bottom: 20px;
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   width: 100%;
-  /* width: 100%; */
+ 
   position: relative;
 
   padding-right: calc(var(--bs-gutter-x) * 0.5);
@@ -543,8 +430,6 @@ margin-bottom: 20px;
   margin-right: auto;
   margin-left: auto;
 
-  /* border: 2px solid black;
-   outline: 2px solid black; */
 }
 
 #submit-ideas .container,
@@ -557,7 +442,7 @@ margin-bottom: 20px;
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   width: 100%;
-  /* width: 100%; */
+  
   position: relative;
 
   padding-right: calc(var(--bs-gutter-x) * 0.5);
@@ -565,8 +450,7 @@ margin-bottom: 20px;
   margin-right: auto;
   margin-left: auto;
 
-  /* border: 2px solid black;
-   outline: 2px solid black; */
+
 }
 
 .row > * {
@@ -576,7 +460,7 @@ margin-bottom: 20px;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin: auto;
-  /* margin-top: 120px; */
+  
 }
 
 #submit-ideas .row {
@@ -585,7 +469,7 @@ margin-bottom: 20px;
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  /* margin-top: 10px; */
+  
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
   margin-top: 95px;
@@ -595,15 +479,12 @@ margin-bottom: 20px;
   background-color: #cef542;
 }
 
-/* textarea #comments .form-control {
 
-  background-color: #cef542;
-} */
 
 /* Media queries */
 
 /* Small devices (tablets, 360px to 576px) */
-/* Accommodate text-wrap of h1 #welcome-text */
+
 @media screen and (min-width: 360px) and (max-width: 500px) {
   #welcome-text {
     margin-top: 4px;
@@ -613,7 +494,7 @@ margin-bottom: 20px;
 
   #header-text {
     background-color: #2d4d38;
-    /* border-bottom: 3px solid #9E8D47; */
+   
     height: 100px;
     width: 288px;
     border: 5px solid #9e8d47;
@@ -629,7 +510,7 @@ margin-bottom: 20px;
     position: relative;
     margin-top: 170px;
     font-family: var(--secondary-font);
-    /* justify-content: center; */
+    
   }
 
     .heading-text-d-p-l h2 {
@@ -639,23 +520,23 @@ margin-bottom: 20px;
     position: relative;
     margin-top: 250px;
     font-family: var(--secondary-font);
-    /* justify-content: center; */
+    
   }
 
   .container {
-    /* border-top: 3px solid #9E8D47; */
+    
     margin-bottom: 20px;
     position: absolute;
     top: 125px;
   }
 
   #navbar {
-    /* background-color: var(--primary-color); */
+    
 
     margin-top: 0;
     margin-bottom: 1rem;
     margin-left: 0;
-    /* margin-right: 1rem; */
+    
     justify-items: center;
 
     width: 100%;
@@ -699,7 +580,7 @@ margin-bottom: 20px;
     position: relative;
     margin-top: 250px;
     font-family: var(--secondary-font);
-    /* justify-content: center; */
+
   }
 
   .heading-text h2 {
@@ -709,7 +590,7 @@ margin-bottom: 20px;
     position: relative;
     margin-top: 170px;
     font-family: var(--secondary-font);
-    /* justify-content: center; */
+    
   }
 
   .container {
@@ -719,12 +600,12 @@ margin-bottom: 20px;
   }
 
   #navbar {
-    /* background-color: var(--primary-color); */
+   
 
     margin-top: 0;
     margin-bottom: 1rem;
     margin-left: 0;
-    /* margin-right: 1rem; */
+    
     justify-items: center;
 
     width: 100%;
@@ -748,14 +629,14 @@ margin-bottom: 20px;
 
 /* Small devices (tablets, 576px and smaller) */
 @media screen and (min-width: 528px) {
-  /* Make all service cards the same height for consistency */
+  
   #welcome-text {
     margin-top: 10px;
   }
 
   #header-text {
     background-color: #2d4d38;
-    /* border-bottom: 3px solid #9E8D47; */
+    
     height: 70px;
     width: auto;
     border: 5px solid #9e8d47;
@@ -771,7 +652,7 @@ margin-bottom: 20px;
     position: relative;
     margin-top: 250px;
     font-family: var(--secondary-font);
-    /* justify-content: center; */
+    
   }
 
     .heading-text h2 {
@@ -781,7 +662,7 @@ margin-bottom: 20px;
     position: relative;
     margin-top: 160px;
     font-family: var(--secondary-font);
-    /* justify-content: center; */
+    
   }
 
   .img-container-topmost {
@@ -789,7 +670,7 @@ margin-bottom: 20px;
   }
 
   #navbar {
-    /* background-color: var(--primary-color); */
+    
 
     height: 205px;
 
@@ -797,7 +678,7 @@ margin-bottom: 20px;
   }
 
   .container {
-    /* border-top: 3px solid #9E8D47; */
+    
     margin-bottom: 20px;
     position: absolute;
     top: 105px;
@@ -805,7 +686,7 @@ margin-bottom: 20px;
 }
 
 @media screen and (min-width: 529px) and (max-width: 767px) {
-  /* Make all service cards the same height for consistency */
+  
   #welcome-text {
     margin-top: 0;
     line-height: 3rem;
@@ -820,7 +701,7 @@ margin-bottom: 20px;
   }
 
   .container {
-    /* border-top: 3px solid #9E8D47; */
+    
     margin-bottom: 20px;
     position: absolute;
     top: 105px;
@@ -829,11 +710,11 @@ margin-bottom: 20px;
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 767px) {
-  /* Make all service cards the same height for consistency */
+  
 
   #header-text {
     background-color: #2d4d38;
-    /* border-bottom: 3px solid #9E8D47; */
+    
     height: 70px;
     width: auto;
     border: 5px solid #9e8d47;
@@ -849,7 +730,7 @@ margin-bottom: 20px;
     position: relative;
     margin-top: 250px;
     font-family: var(--secondary-font);
-    /* justify-content: center; */
+    
   }
 
   #welcome-text {
@@ -865,7 +746,7 @@ margin-bottom: 20px;
   }
 
   .container {
-    /* border-top: 3px solid #9E8D47; */
+    
     margin-bottom: 20px;
     position: absolute;
     top: 105px;
@@ -880,7 +761,7 @@ margin-bottom: 20px;
 @media screen and (min-width: 992px) {
   #header-text {
     background-color: #2d4d38;
-    /* border-bottom: 3px solid #9E8D47; */
+    
     height: 70px;
     width: auto;
     border: 5px solid #9e8d47;
@@ -896,7 +777,7 @@ margin-bottom: 20px;
     position: relative;
     margin-top: 250px;
     font-family: var(--secondary-font);
-    /* justify-content: center; */
+    
   }
 
   #welcome-text {
@@ -912,7 +793,7 @@ margin-bottom: 20px;
   }
 
   .container {
-    /* border-top: 3px solid #9E8D47; */
+    
     margin-bottom: 20px;
     position: absolute;
     top: 105px;
@@ -925,8 +806,7 @@ margin-bottom: 20px;
 
 /* xl devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
-  /* make all service cards the same height for consistency */
-
+  
   #welcome-text {
     margin-top: 10px;
     text-align: center;
@@ -942,7 +822,7 @@ margin-bottom: 20px;
 
   #header-text {
     background-color: #2d4d38;
-    /* border-bottom: 3px solid #9E8D47; */
+    
     height: 70px;
     width: auto;
     border: 5px solid #9e8d47;
@@ -958,11 +838,11 @@ margin-bottom: 20px;
     position: relative;
     margin-top: 250px;
     font-family: var(--secondary-font);
-    /* justify-content: center; */
+    
   }
 
   .container {
-    /* border-top: 3px solid #9E8D47; */
+   
     margin-bottom: 20px;
     position: absolute;
     top: 105px;
@@ -975,11 +855,11 @@ margin-bottom: 20px;
 
 /* xxl devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) {
-  /* make all service cards the same height for consistency */
+  
 
   #header-text {
     background-color: #2d4d38;
-    /* border-bottom: 3px solid #9E8D47; */
+    
     height: 70px;
     width: auto;
     border: 5px solid #9e8d47;
@@ -993,7 +873,7 @@ margin-bottom: 20px;
   }
 
   .container {
-    /* border-top: 3px solid #9E8D47; */
+    
     margin-bottom: 20px;
     position: absolute;
     top: 105px;
