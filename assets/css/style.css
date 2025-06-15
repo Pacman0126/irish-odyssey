@@ -90,6 +90,12 @@ textarea.form-control {
   padding-top: 0;
 }
 
+.img-container-submit-confirmation {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .card-group {
   display: flex;
   flex-direction: row;
@@ -226,7 +232,7 @@ h1 {
   color: #cef542;
 
   padding: 10px 10px 10px 10px;
-line-height: 1em;
+  line-height: 1em;
   text-align: center;
   display: flex;
   position: relative;
@@ -240,7 +246,6 @@ line-height: 1em;
 }
 
 #text-above-grid {
-
   display: flex;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-optical-sizing: none;
@@ -588,7 +593,6 @@ margin-bottom: 20px;
 
 .input-field {
   background-color: #cef542;
-
 }
 
 /* textarea #comments .form-control {
@@ -619,14 +623,14 @@ margin-bottom: 20px;
   }
 
   .heading-text h2 {
-  text-transform: uppercase;
-  text-align: center;
-  color: #cef542;
-  position: relative;
-  margin-top: 155px;
-  font-family: var(--secondary-font);
-  /* justify-content: center; */
-}
+    text-transform: uppercase;
+    text-align: center;
+    color: #cef542;
+    position: relative;
+    margin-top: 155px;
+    font-family: var(--secondary-font);
+    /* justify-content: center; */
+  }
 
   .container {
     /* border-top: 3px solid #9E8D47; */
@@ -654,15 +658,12 @@ margin-bottom: 20px;
     margin-top: 150px;
   }
 
+  .img-container-submit-confirmation {
+    margin-top: 40px;
+  }
+
   #submit-ideas .row {
     margin-top: 105px;
-  }
-}
-@media screen and (max-width: 527px) {
-  /* There is a unique breakpoint at width:527px where buttons and text above wrap and 
-  slightly alter top margin of h2 below. Can't find a workaraound yet. Maybe ignore. */
-  #text-above-grid > h2 {
-    margin-top: 155px !important;
   }
 }
 
@@ -681,15 +682,15 @@ margin-bottom: 20px;
     margin-bottom: 50px;
   }
 
-    .heading-text h2 {
-  text-transform: uppercase;
-  text-align: center;
-  color: #cef542;
-  position: relative;
-  margin-top: 155px;
-  font-family: var(--secondary-font);
-  /* justify-content: center; */
-}
+  .heading-text h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #cef542;
+    position: relative;
+    margin-top: 155px;
+    font-family: var(--secondary-font);
+    /* justify-content: center; */
+  }
 
   .container {
     margin-bottom: 20px;
@@ -716,6 +717,10 @@ margin-bottom: 20px;
     margin-top: 160px;
   }
 
+  .img-container-submit-confirmation {
+    margin-top: 40px;
+  }
+
   #submit-ideas .row {
     margin-top: 105px;
   }
@@ -739,15 +744,15 @@ margin-bottom: 20px;
     margin-bottom: 10px;
   }
 
-    .heading-text h2 {
-  text-transform: uppercase;
-  text-align: center;
-  color: #cef542;
-  position: relative;
-  margin-top: 155px;
-  font-family: var(--secondary-font);
-  /* justify-content: center; */
-}
+  .heading-text h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #cef542;
+    position: relative;
+    margin-top: 155px;
+    font-family: var(--secondary-font);
+    /* justify-content: center; */
+  }
 
   .img-container-topmost {
     margin-top: 140px;
@@ -773,10 +778,15 @@ margin-bottom: 20px;
   /* Make all service cards the same height for consistency */
   #welcome-text {
     margin-top: 10px;
+    line-height: 3rem;
   }
 
   .img-container-topmost {
     margin-top: 138px;
+  }
+
+  .img-container-submit-confirmation {
+    margin-top: 40px;
   }
 
   .container {
@@ -808,6 +818,10 @@ margin-bottom: 20px;
 
   .img-container-topmost {
     margin-top: 150px;
+  }
+
+  .img-container-submit-confirmation {
+    margin-top: 40px;
   }
 
   .container {
@@ -843,6 +857,10 @@ margin-bottom: 20px;
     margin-top: 160px;
   }
 
+  .img-container-submit-confirmation {
+    margin-top: 40px;
+  }
+
   .container {
     /* border-top: 3px solid #9E8D47; */
     margin-bottom: 20px;
@@ -866,6 +884,10 @@ margin-bottom: 20px;
 
   .img-container-topmost {
     margin-top: 185px;
+  }
+
+  .img-container-submit-confirmation {
+    margin-top: 40px;
   }
 
   #header-text {
@@ -918,7 +940,11 @@ margin-bottom: 20px;
   }
 
   .img-container-topmost {
-    margin-top: 170px;
+    margin-top: 185px;
+  }
+
+  .img-container-submit-confirmation {
+    margin-top: 40px;
   }
 
   .input-field {
