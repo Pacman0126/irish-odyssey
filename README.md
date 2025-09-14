@@ -27,6 +27,51 @@ The Irish Odyssey is a new launch website. It is intended to help first time vis
 ![Alt text](assets/images/readme-screenshots/submit-button.png "Form Submit button")
 
 
+
+# Deploying Irish Odyssey to GitHub Pages
+
+This guide walks through deploying your project to GitHub Pages.
+
+---
+
+## 1) Push (or update) your repo on GitHub
+
+If you haven't yet pushed this project to GitHub, run the following commands:
+
+<!-- ```bash -->
+# from your project root
+- git init                      # skip if already a git repo
+- git add .
+- git commit -m "Initial commit"
+- git branch -M main
+- git remote add origin https://github.com/Pacman0126/irish-odyssey.git
+- git push -u origin main
+
+## 2) Enable GitHub Pages (quick method)
+
+1. On GitHub, open your repository.  
+2. Go to **Settings → Pages** (under *Code and automation*).
+
+![Alt text](assets/images/readme-screenshots/go-to-settings.jpg "GitHub settings button")
+
+![Alt text](assets/images/readme-screenshots/go-to-pages.jpg "GitHub pages button") 
+
+3. Under **Build and deployment**, choose **Deploy from a branch**.  
+4. Select:  
+   - **Branch**: `main`  
+   - **Folder**: `/ (root)` or `/docs` (depending on where your `index.html` lives).
+   
+   ![Alt text](assets/images/readme-screenshots/build-and-deploy.jpg "GitHub pages button") 
+
+5. Click **Save**.  
+6. GitHub will show the published URL (e.g., `https://Pacman0126.github.io/irish-odyssey/`).
+
+
+
+![Step 2 – Pages config](assets/images/readme/step2-pages-config.jpg)  
+![Step 2 – Published URL](assets/images/readme/step2-url.jpg)
+
+
 ## How to View the Project
 - [View the deployed website](https://pacman0126.github.io/irish-odyssey/index.html)
 
