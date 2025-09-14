@@ -58,22 +58,94 @@ If you haven't yet pushed this project to GitHub, run the following commands:
 
 3. Under **Build and deployment**, choose **Deploy from a branch**.  
 4. Select:  
-   - **Branch**: `main`  
+   - **Branch**: `main` 
    - **Folder**: `/ (root)` or `/docs` (depending on where your `index.html` lives).
-   
+
    ![Alt text](assets/images/readme-screenshots/build-and-deploy.jpg "GitHub pages button") 
 
 5. Click **Save**.  
-6. GitHub will show the published URL (e.g., `https://Pacman0126.github.io/irish-odyssey/`).
+6. Click Vist Site button. GitHub will show the published URL (e.g., `https://Pacman0126.github.io/irish-odyssey/`).
 
-
-
-![Step 2 – Pages config](assets/images/readme/step2-pages-config.jpg)  
-![Step 2 – Published URL](assets/images/readme/step2-url.jpg)
+   ![Alt text](assets/images/readme-screenshots/visit-site.jpg "GitHub pages button") 
 
 
 ## How to View the Project
 - [View the deployed website](https://pacman0126.github.io/irish-odyssey/index.html)
+
+
+## Testing and Validation
+
+### HTML Validation
+- [Home Page](https://validator.w3.org/nu/?doc=https://pacman0126.github.io/irish-odyssey)
+- [Dining, Pubs & Lodging](https://validator.w3.org/nu/?doc=https://pacman0126.github.io/irish-odyssey/dining-pubs-lodging.html)
+- [Sightseeing](https://validator.w3.org/nu/?doc=https://pacman0126.github.io/irish-odyssey/sightseeing.html)
+- [Submit Confirmation](https://validator.w3.org/nu/?doc=https://pacman0126.github.io/irish-odyssey/submit-confirmation.html)
+- [Submit Ideas](https://validator.w3.org/nu/?doc=https://pacman0126.github.io/irish-odyssey/submit-ideas.html)
+
+### CSS Validation
+- [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://pacman0126.github.io/irish-odyssey)
+
+---
+
+### Manual Testing
+
+#### 📋 Summary of User Flows
+
+| Page | User Action | Expected Result | Status |
+|------|-------------|-----------------|--------|
+| **Home** (`index.html`) | Site loads | Home page is displayed | ✅ |
+| **Dining, Pubs & Lodging** | Click button | Navigates to `dining-pubs-lodging.html` | ✅ |
+| **Sightseeing** | Click button | Navigates to `sightseeing.html` | ✅ |
+| **Submit Ideas** | Click button | Navigates to `submit-ideas.html` | ✅ |
+| Submit Ideas – File Upload | Click **Choose File** | Windows Explorer opens | ✅ |
+| Submit Ideas – Form Validation | Submit with missing fields | Validation warnings shown | ✅ |
+| Submit Ideas – Successful Submission | Submit with all fields completed | Confirmation displayed | ✅ |
+| **Submit Confirmation** | Click **Take me back to the home page** | Redirects to Home page | ✅ |
+
+---
+
+#### 🔎 Detailed Walkthrough with Screenshots
+
+##### Home Page (`index.html`)
+- When site loads, user sees the Home page.  
+  ✅ Behaves as expected.  
+  ![Home Page](assets/images/readme-screenshots/load-site.jpg)
+
+##### Dining, Pubs & Lodging (`dining-pubs-lodging.html`)
+- Clicking **Dining/Pubs/Lodging** button takes user to this page.  
+  ✅ Behaves as expected.  
+  ![Dining, Pubs & Lodging](assets/images/readme-screenshots/dining-pubs-lodging.jpg)
+
+##### Sightseeing (`sightseeing.html`)
+- Clicking **Sightseeing** button takes user to this page.  
+  ✅ Behaves as expected.  
+  ![Sightseeing](assets/images/readme-screenshots/sightseeing.jpg)
+
+##### Submit Ideas (`submit-ideas.html`)
+- Clicking **Submit Your Picks** button takes user to this page.  
+  ✅ Behaves as expected.  
+  ![Submit Ideas](assets/images/readme-screenshots/submit-ideas.jpg)
+
+###### File Upload
+- Clicking **Choose File** opens Windows Explorer.  
+  ✅ Behaves as expected.  
+  ![Choose File](assets/images/readme-screenshots/upload-file.jpg)  
+  ![File Selected](assets/images/readme-screenshots/selected-upload.jpg)
+
+###### Form Validation
+- Submitting with missing fields triggers validation warnings.  
+  ✅ Behaves as expected.  
+  ![Form Validation](assets/images/readme-screenshots/form-validation.jpg)
+
+- Submitting with all fields completed shows confirmation.  
+  ✅ Behaves as expected.  
+  ![Submit Confirmation](assets/images/readme-screenshots/submit-confirmation.jpg)
+
+##### Submit Confirmation (`submit-confirmation.html`)
+- Clicking **Take me back to the home page** button redirects user to Home page.  
+  ✅ Behaves as expected.  
+  ![Return to Home](assets/images/readme-screenshots/load-site.jpg)
+
 
 ## Credits
 
