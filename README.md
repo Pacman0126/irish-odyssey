@@ -96,6 +96,7 @@ If you haven't yet pushed this project to GitHub, run the following commands:
 | **Home** (`index.html`) | Site loads | Home page is displayed | ✅ |
 | **Dining, Pubs & Lodging** | Click button | Navigates to `dining-pubs-lodging.html` | ✅ |
 | **Sightseeing** | Click button | Navigates to `sightseeing.html` | ✅ |
+| **Card Button** | Click **Get More Info** on a card | Opens relevant external page | ✅ |
 | **Submit Ideas** | Click button | Navigates to `submit-ideas.html` | ✅ |
 | Submit Ideas – File Upload | Click **Choose File** | Windows Explorer opens | ✅ |
 | Submit Ideas – Form Validation | Submit with missing fields | Validation warnings shown | ✅ |
@@ -121,6 +122,12 @@ If you haven't yet pushed this project to GitHub, run the following commands:
   ✅ Behaves as expected.  
   ![Sightseeing](assets/images/readme-screenshots/sightseeing.jpg)
 
+###### Card Functionality
+- Clicking **Get More Info** button on an individual card takes the user to the relevant external page.  
+  ✅ Behaves as expected.  
+  ![Card Button](assets/images/readme-screenshots/card-get-more-info-button.jpg)  
+  ![Card Result](assets/images/readme-screenshots/card-get-more-info-button-result.jpg)
+
 ##### Submit Ideas (`submit-ideas.html`)
 - Clicking **Submit Your Picks** button takes user to this page.  
   ✅ Behaves as expected.  
@@ -145,6 +152,7 @@ If you haven't yet pushed this project to GitHub, run the following commands:
 - Clicking **Take me back to the home page** button redirects user to Home page.  
   ✅ Behaves as expected.  
   ![Return to Home](assets/images/readme-screenshots/load-site.jpg)
+
 
 
 ## Credits
