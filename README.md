@@ -61,12 +61,12 @@ If you haven't yet pushed this project to GitHub, run the following commands:
    - **Branch**: `main` 
    - **Folder**: `/ (root)` or `/docs` (depending on where your `index.html` lives).
 
-   ![Alt text](assets/images/readme-screenshots/build-and-deploy.jpg "GitHub pages button") 
+   ![Alt text](assets/images/readme-screenshots/build-and-deploy.jpg ) 
 
 5. Click **Save**.  
 6. Click Vist Site button. GitHub will show the published URL (e.g., `https://Pacman0126.github.io/irish-odyssey/`).
 
-   ![Alt text](assets/images/readme-screenshots/visit-site.jpg "GitHub pages button") 
+   ![Alt text](assets/images/readme-screenshots/visit-site.jpg) 
 
 
 ## How to View the Project
